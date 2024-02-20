@@ -21,44 +21,44 @@ export const navLinks = [
 export const skills = [
   {
     id: 1,
-    name: 'Front-end Development',
+    name: 'Desarrollo Front-end',
     description:
-      'Proficiency in coding the visual aspects of websites using HTML, CSS, and JavaScript to ensure a seamless and attractive user interface.',
+      'Competencia en codificar los aspectos visuales de los sitios web usando HTML, CSS y JavaScript para garantizar una interfaz de usuario atractiva y sin interrupciones.',
     icon: '/icons/service-1.svg',
   },
   {
     id: 2,
-    name: 'User Interface - UI Development',
+    name: 'Desarrollo de Interfaz de Usuario - UI',
     description:
-      'Ability to craft visually appealing and user-friendly interfaces using code to enhance user engagement and interaction.',
+      'Capacidad para crear interfaces visualmente atractivas y fáciles de usar mediante código para mejorar el compromiso e interacción del usuario.',
     icon: '/icons/service-2.svg',
   },
   {
     id: 3,
-    name: 'User Experience - UX Development',
+    name: 'Desarrollo de Experiencia de Usuario - UX',
     description:
-      'Understanding of user behavior and experience principles applied through coding to create seamless and satisfying user interactions.',
+      'Comprensión del comportamiento del usuario y principios de experiencia aplicados a través de la codificación para crear interacciones de usuario fluidas y satisfactorias.',
     icon: '/icons/service-3.svg',
   },
   {
     id: 4,
-    name: 'Responsive Web Development',
+    name: 'Desarrollo Web Responsive',
     description:
-      'Capability to develop websites that adapt and function flawlessly across various devices and screen sizes using coding techniques.',
+      'Capacidad para desarrollar sitios web que se adaptan y funcionan perfectamente en diversos dispositivos y tamaños de pantalla mediante técnicas de codificación.',
     icon: '/icons/service-4.svg',
   },
   {
     id: 5,
-    name: 'Prototyping and Development Testing',
+    name: 'Prototipado y Pruebas de Desarrollo',
     description:
-      'Ability to code prototypes and conduct thorough testing to visualize and refine website functionalities.',
+      'Habilidad para codificar prototipos y realizar pruebas exhaustivas para visualizar y perfeccionar las funcionalidades del sitio web.',
     icon: '/icons/service-5.svg',
   },
   {
     id: 6,
-    name: 'Mobile-Friendly Coding',
+    name: 'Codificación Compatible con Móviles',
     description:
-      'Proficiency in coding practices that ensure websites function seamlessly on mobile devices.',
+      'Competencia en prácticas de codificación que aseguran que los sitios web funcionen sin problemas en dispositivos móviles.',
     icon: '/icons/service-6.svg',
   },
 ];
