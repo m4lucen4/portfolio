@@ -1,9 +1,9 @@
 import SectionHeading from '@/components/SectionHeading';
 import React from 'react';
-import Hero from './components/Hero';
-import Skills from './components/Skills';
-import { benefits } from '@/constants';
-import Benefits from './components/Benefits';
+import Hero from '../../../components/hero';
+import Skills from '../../../components/skills';
+import Benefits from '../../../components/benefits';
+import Portfolio from '../../../components/portfolio';
 
 const page = () => {
   return (
@@ -11,6 +11,7 @@ const page = () => {
       <Hero />
       <Skills />
       <Benefits />
+      <Portfolio />
     </>
   );
 };
