@@ -2,7 +2,7 @@ import React from 'react';
 
 interface SectionHeadingProps {
   title: string;
-  subtitle: string;
+  subtitle?: string;
 }
 
 const SectionHeading = ({ title, subtitle }: SectionHeadingProps) => {

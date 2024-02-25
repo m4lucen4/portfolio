@@ -4,6 +4,8 @@ import Hero from '../../../components/hero';
 import Skills from '../../../components/skills';
 import Benefits from '../../../components/benefits';
 import Portfolio from '../../../components/portfolio';
+import Testimonials from '../../../components/testimonials';
+import Faqs from '@/components/faqs';
 
 const page = () => {
   return (
@@ -12,6 +14,8 @@ const page = () => {
       <Skills />
       <Benefits />
       <Portfolio />
+      <Testimonials />
+      <Faqs />
     </>
   );
 };
