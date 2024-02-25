@@ -2,6 +2,11 @@ import Image from 'next/image';
 import React from 'react';
 import PortfolioSection from './components/PortfolioSection';
 import { portfolios } from '@/constants';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Portfolio - Miguel Ángel Lucena',
+};
 
 const page = () => {
   return (
