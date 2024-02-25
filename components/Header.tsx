@@ -19,10 +19,10 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <Link href={'/contact'} className="btn btn-primary">
+        {/* <Link href={'/contact'} className="btn btn-primary">
           <Phone size={24} />
           Contacta
-        </Link>
+        </Link> */}
       </nav>
       <MobileMenu />
     </header>
