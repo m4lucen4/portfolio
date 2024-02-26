@@ -11,7 +11,7 @@ const MobileMenu = () => {
   return (
     <div className="tablet:hidden">
       <button
-        className="text-grey-700 hover:text-purple transition-colors"
+        className="text-grey-700 hover:text-orange transition-colors"
         onClick={toggleMenu}
       >
         <Menu size={36} />
@@ -24,10 +24,10 @@ const MobileMenu = () => {
       >
         <div className="flex w-full items-center justify-between h-20 max-width border-b border-peach">
           <Link href="/">
-            <h5 className="text-blue text-xl font-semibold">malucena.dev</h5>
+            <h5 className="text-orange text-xl font-semibold">malucena.dev</h5>
           </Link>
           <button
-            className="text-grey-700 hover:text-purple transition-colors"
+            className="text-grey-700 hover:text-orange transition-colors"
             onClick={toggleMenu}
           >
             <X size={36} />
@@ -36,7 +36,7 @@ const MobileMenu = () => {
         <nav className="flex flex-col items-center justify-center flex-1 gap-10">
           <ul className="flex item-center flex-col gap-5">
             {navLinks.map((link, index) => (
-              <li key={index}>
+              <li key={index} onClick={toggleMenu}>
                 <NavLink
                   href={link.url}
                   label={link.label}
@@ -54,7 +54,7 @@ const MobileMenu = () => {
           {socialLinks.map((link, index) => (
             <a
               href={link.url}
-              className="text-grey-700 hover:text-purple transition-colors"
+              className="text-grey-700 hover:text-orange transition-colors"
               key={index}
             >
               {link.label}

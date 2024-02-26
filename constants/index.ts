@@ -1,4 +1,12 @@
-import { Facebook, Linkedin, Mail, MapPin, Phone, Twitter } from 'lucide-react';
+import {
+  Facebook,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  Twitter,
+  Github,
+} from 'lucide-react';
 
 export const navLinks = [
   {
@@ -348,20 +356,14 @@ export const faqs = [
 export const socialLinks = [
   {
     id: 1,
-    label: 'Facebook',
-    icon: Facebook,
-    url: '#',
+    label: 'Github',
+    icon: Github,
+    url: 'https://github.com/m4lucen4',
   },
   {
     id: 2,
     label: 'Linkedin',
     icon: Linkedin,
-    url: '#',
-  },
-  {
-    id: 3,
-    label: 'Twitter',
-    icon: Twitter,
     url: '#',
   },
 ];
